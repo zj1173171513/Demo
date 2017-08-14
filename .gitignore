@@ -1,0 +1,103 @@
+在Android中Git提交想忽略某些不想提交的文件，可以在项目目录中新建一个.gitignore，如果没有这个文件，可以手动建一个。里面匹配一下你不想提交的文件。
+
+下面这是android Studio的忽略规则
+[html] view plain copy 在CODE上查看代码片派生到我的代码片
+# OSX  
+  
+*.DS_Store  
+  
+  
+# Gradle files  
+build/  
+.gradle/  
+*/build/  
+  
+  
+# IDEA  
+*.iml  
+.idea/.name  
+.idea/encodings.xml  
+.idea/inspectionProfiles/Project_Default.xml  
+.idea/inspectionProfiles/profiles_settings.xml  
+.idea/misc.xml  
+.idea/modules.xml  
+.idea/scopes/scope_settings.xml  
+.idea/vcs.xml  
+.idea/workspace.xml  
+.idea/libraries  
+  
+  
+# Built application files  
+*.apk  
+*.ap_  
+  
+  
+# Files for the Dalvik VM  
+*.dex  
+  
+  
+# Java class files  
+*.class  
+  
+  
+# Generated files  
+antLauncher/bin  
+antLauncher/gen  
+  
+  
+# Local configuration file (sdk path, etc)  
+local.properties  
+  
+  
+# Log Files  
+*.log  
+[html] view plain copy
+# OSX  
+  
+*.DS_Store  
+  
+  
+# Gradle files  
+build/  
+.gradle/  
+*/build/  
+  
+  
+# IDEA  
+*.iml  
+.idea/.name  
+.idea/encodings.xml  
+.idea/inspectionProfiles/Project_Default.xml  
+.idea/inspectionProfiles/profiles_settings.xml  
+.idea/misc.xml  
+.idea/modules.xml  
+.idea/scopes/scope_settings.xml  
+.idea/vcs.xml  
+.idea/workspace.xml  
+.idea/libraries  
+  
+  
+# Built application files  
+*.apk  
+*.ap_  
+  
+  
+# Files for the Dalvik VM  
+*.dex  
+  
+  
+# Java class files  
+*.class  
+  
+  
+# Generated files  
+antLauncher/bin  
+antLauncher/gen  
+  
+  
+# Local configuration file (sdk path, etc)  
+local.properties  
+  
+  
+# Log Files  
+*.log  
