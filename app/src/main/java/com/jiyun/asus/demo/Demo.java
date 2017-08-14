@@ -5,5 +5,7 @@ package com.jiyun.asus.demo;
  */
 
 public class Demo {
+    public void get(){
 
+    }
 }
